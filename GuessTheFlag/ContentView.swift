@@ -109,7 +109,6 @@ struct ContentView: View {
     }
     
     func reset() {
-        askQuestion()
         gameOverAlert = false
         gameCounter = 0
         playerScore = 0
